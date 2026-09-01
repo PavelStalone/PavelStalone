@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="PavelStalone - Star Wars style header">
+  <defs>
+    <radialGradient id="spaceGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a1c3a"/>
+      <stop offset="60%" stop-color="#0a0a1f"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <linearGradient id="forceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c3e8d4"/>
+      <stop offset="35%" stop-color="#7fd6ab"/>
+      <stop offset="55%" stop-color="#aee6cb"/>
+      <stop offset="75%" stop-color="#7fd6ab"/>
+      <stop offset="100%" stop-color="#3f8f68"/>
+    </linearGradient>
+
+    <filter id="forceGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes star-drift1 {
+        0%   { transform: translate(0, 0); opacity: 0; }
+        10%  { opacity: 1; }
+        100% { transform: translate(-60px, 160px); opacity: 0; }
+      }
+      @keyframes star-drift2 {
+        0%   { transform: translate(0, 0); opacity: 0; }
+        10%  { opacity: 1; }
+        100% { transform: translate(80px, 200px); opacity: 0; }
+      }
+      @keyframes star-twinkle {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 1; }
+      }
+      @keyframes title-in {
+        0%   { transform: scale(4) translateY(40px); opacity: 0; }
+        50%  { opacity: 1; }
+        80%  { transform: scale(1.05) translateY(0); opacity: 1; }
+        100% { transform: scale(1) translateY(0); opacity: 1; }
+      }
+      @keyframes subtitle-in {
+        0%   { opacity: 0; transform: translateY(10px); }
+        50%  { opacity: 0; }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes gradient-shine {
+        0%   { background-position: 0% 50%; }
+        50%  { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      @keyframes evaporate {
+        0%   { opacity: 1; }
+        50%  { opacity: 0.5; }
+        100% { opacity: 0.95; }
+      }
+      .title {
+        fill: #7fd6ab;
+        fill-opacity: 0.1;
+	stroke: #7fd6ab;
+	stroke-width: 1;
+	stroke-opacity: 0.8;
+        transform-origin: center;
+        animation:
+          title-in 2.6s ease-out both,
+          evaporate 5s ease-in-out 2.6s infinite;
+      }
+      .subtitle {
+        fill: #aee6cb;
+        fill-opacity: 0.6;
+        animation: subtitle-in 2.6s ease-out 1.4s both;
+      }
+      .star { animation: star-twinkle 3s ease-in-out infinite; }
+      .star1 { animation: star-drift1 9s linear infinite; }
+      .star2 { animation: star-drift2 11s linear infinite; }
+      .star3 { animation: star-drift1 13s linear infinite 2s; }
+    </style>
+  </defs>
+
+  <!-- Space background -->
+  <rect width="1200" height="300" fill="url(#spaceGrad)"/>
+
+  <!-- Drifting / twinkling stars -->
+  <g>
+    <circle class="star star1" cx="100" cy="80" r="1.5" fill="#ffffff"/>
+    <circle class="star star2" cx="250" cy="200" r="2" fill="#ffffff"/>
+    <circle class="star star3" cx="400" cy="60" r="1.5" fill="#dfe9ff"/>
+    <circle class="star" cx="600" cy="250" r="1" fill="#ffffff"/>
+    <circle class="star" cx="750" cy="120" r="1.5" fill="#ffffff"/>
+    <circle class="star" cx="900" cy="220" r="2" fill="#dfe9ff"/>
+    <circle class="star" cx="1050" cy="90" r="1.5" fill="#ffffff"/>
+    <circle class="star" cx="1150" cy="180" r="1" fill="#ffffff"/>
+    <circle class="star" cx="150" cy="250" r="1" fill="#dfe9ff"/>
+    <circle class="star" cx="520" cy="30" r="1" fill="#ffffff"/>
+    <circle class="star star1" cx="820" cy="40" r="1.5" fill="#ffffff"/>
+    <circle class="star star2" cx="980" cy="260" r="2" fill="#ffffff"/>
+    <circle class="star star3" cx="70" cy="140" r="1" fill="#dfe9ff"/>
+    <circle class="star" cx="200" cy="40" r="1" fill="#ffffff"/>
+    <circle class="star" cx="330" cy="150" r="1.5" fill="#ffffff"/>
+    <circle class="star" cx="470" cy="230" r="1" fill="#dfe9ff"/>
+    <circle class="star" cx="650" cy="180" r="1.5" fill="#ffffff"/>
+    <circle class="star" cx="780" cy="260" r="1" fill="#dfe9ff"/>
+    <circle class="star" cx="870" cy="70" r="1.5" fill="#ffffff"/>
+    <circle class="star star1" cx="1010" cy="150" r="1" fill="#ffffff"/>
+    <circle class="star" cx="1100" cy="50" r="1.5" fill="#dfe9ff"/>
+    <circle class="star" cx="60" cy="220" r="1" fill="#ffffff"/>
+    <circle class="star star2" cx="540" cy="120" r="1" fill="#ffffff"/>
+    <circle class="star" cx="960" cy="40" r="1" fill="#dfe9ff"/>
+  </g>
+
+  <!-- Title -->
+  <g class="title">
+    <text x="600" y="140" text-anchor="middle"
+          font-family="'Arial Black', 'Impact', sans-serif"
+          font-size="64" font-weight="900" letter-spacing="8">
+      PAVELSTALONE
+    </text>
+  </g>
+
+  <!-- Subtitle / tagline -->
+  <g class="subtitle">
+    <text x="600" y="185" text-anchor="middle"
+          font-family="'Arial', sans-serif" font-size="22" letter-spacing="10"
+          font-weight="600">
+      ★ MAY THE CODE BE WITH YOU ★
+    </text>
+  </g>
+</svg>
