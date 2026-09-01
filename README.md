@@ -28,10 +28,10 @@
 
 ### GitHub Stats
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=PavelStalone&theme=whatsapp-dark&hide_border=true)](https://git.io/streak-stats)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=PavelStalone&theme=whatsapp-dark&hide_border=true)
 
-<a href="https://github.com/PavelStalone/github-readme-stats"><img alt="PavelStalone Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=PavelStalone&show_icons=true&include_all_commits=true&count_private=true&theme=city_lights&hide_border=true" height="180px"/></a>
-  <a href="https://github.com/PavelStalone/github-readme-stats"><img alt="PavelStalone Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=PavelStalone&langs_count=8&layout=compact&theme=city_lights&hide_border=true" height="180px"/></a>
+<img alt="PavelStalone Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=PavelStalone&show_icons=true&include_all_commits=true&count_private=true&theme=city_lights&hide_border=true" height="180px"/>
+<img alt="PavelStalone Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=PavelStalone&langs_count=8&layout=compact&theme=city_lights&hide_border=true" height="180px"/>
 
 [<picture><source media='(prefers-color-scheme: dark)' srcset='https://api.iconify.design/simple-icons/telegram.svg?color=white&height=40'><source media='(prefers-color-scheme: light)' srcset='https://api.iconify.design/simple-icons/telegram.svg?color=black&height=40'><img alt='github logo' src='https://api.iconify.design/simple-icons/telegram.svg?color=black&height=40' height='40'></picture>](https://t.me/PavelStalone)
 
