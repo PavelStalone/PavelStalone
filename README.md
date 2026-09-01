@@ -4,7 +4,7 @@
 
 ---
 
-### 🧰 Tech Stack
+### Stack
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -26,53 +26,13 @@
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
----
+### GitHub Stats
 
-### 🚀 About Me
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=PavelStalone&theme=whatsapp-dark&hide_border=true)](https://git.io/streak-stats)
 
-- 🏢 **Android Developer** at **LaniT-Tercom** — building apps that interact with real hardware
-- 📡 **IoT / BLE enthusiast** — I make software talk to Bluetooth devices
-- 🤖 Built a **real-time sign language translator** with ~95% accuracy and 30 FPS
-- 📝 Published a scientific paper indexed in **RSCI** on gesture recognition
-- 🧪 Open-sourced a binary packet parser for BLE / IoT protocols
-- 🌱 Always exploring **Clean Architecture**, **Coroutines** and performance optimization
+<a href="https://github.com/PavelStalone/github-readme-stats"><img alt="PavelStalone Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=PavelStalone&show_icons=true&include_all_commits=true&count_private=true&theme=city_lights&hide_border=true" height="180px"/></a>
+  <a href="https://github.com/PavelStalone/github-readme-stats"><img alt="PavelStalone Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=PavelStalone&langs_count=8&layout=compact&theme=city_lights&hide_border=true" height="180px"/></a>
 
----
-
-### 📊 GitHub Stats
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=PavelStalone&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="480"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PavelStalone&layout=compact&theme=tokyonight&hide_border=true" width="360"/>
-    </td>
-  </tr>
-</table>
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=PavelStalone&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
----
-
-### 🎯 What I Do
-
-```
-✔ Mobile apps (Kotlin / Jetpack Compose)
-✔ BLE & IoT integrations with external devices
-✔ Clean Architecture & scalable multi-module projects
-✔ Real-time data processing with Coroutines & Flow
-✔ CI/CD setup & build configuration optimization
-✔ Custom DSLs & binary protocol parsers
-```
-
----
-
-### 💬 Let's Connect
-
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/PavelShoplik)
-
----
+[<picture><source media='(prefers-color-scheme: dark)' srcset='https://api.iconify.design/simple-icons/telegram.svg?color=white&height=40'><source media='(prefers-color-scheme: light)' srcset='https://api.iconify.design/simple-icons/telegram.svg?color=black&height=40'><img alt='github logo' src='https://api.iconify.design/simple-icons/telegram.svg?color=black&height=40' height='40'></picture>](https://t.me/PavelStalone)
 
 </div>
