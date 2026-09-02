@@ -2,6 +2,12 @@
 
 <img src="assets/star-wars-header.svg" alt="Star Wars Header" width="100%"/>
 
+## About me
+
+<div align="justify">
+Android Developer with experience in commercial development of mobile apps in Kotlin (Jetpack Compose, Clean Architecture, MVVM). Worked on the development and support of an Android app with IoT and BLE integrations. In my free time I enjoy algorithm optimization, robotics, and 3D modeling. And as you've probably guessed, my favorite movie is Star Wars😉
+</div>
+
 ## Stack
 
 I use this
